@@ -6,6 +6,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 
 import utilStyles from '../../styles/utils.module.css';
 
+// getStaticProps only runs on the server-side
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id);
   return {
@@ -15,6 +16,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
+// getStaticPaths only runs on the server-side
 export async function getStaticPaths() {
   const paths = getAllPostIds();
   return {
