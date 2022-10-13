@@ -34,10 +34,14 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Timothy. I'm a full stack web developer and a production support with SRE trainee. You can find more details about me on my <a href="https://linkedin.com/in/timothychan2">LinkedIn profile</a>.</p>
+        <p>Hello, I'm Timothy. I'm a full stack web developer and a 
+          production support with SRE trainee. You can find more 
+          details about me on <a href="https://linkedin.com/in/timothychan2" target="_blank">my LinkedIn profile</a>.
+        </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Please feel free to click on any of the below links to read more 
+          about that topic. This website is built following instructions 
+          from the Learn Next.js tutorial.
         </p>
       </section>
 
