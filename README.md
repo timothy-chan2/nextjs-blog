@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is built from the starter template with all JavaScript converted to TypeScript.
